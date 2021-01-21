@@ -7,8 +7,9 @@ import sys
 
 NOTE = "\n\n*Note: This comment is automatically posted by the " \
        "Documentation Publishing GitHub Action.*"
-PREFIX = "The documentation should be made available shortly, follow this " \
-         "<a href='{}'>link</a> to see the preview!"
+PREFIX = "You can find the documentation preview for this PR at this " \
+         "<a href='{}'>link</a>. It will be updated about 10 minutes after " \
+         "the documentation build succeeds."
 
 
 def main():
